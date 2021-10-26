@@ -30,7 +30,7 @@ def send_mess(chat, text):
 
 chat_id = get_chat_id(last_update(get_updates_json(url)))
 
-msg = "What do you want to send?: "
+msg = "Today's Recommeded Reading is James 2"
 send_mess(chat_id, msg)
 
 def main():
